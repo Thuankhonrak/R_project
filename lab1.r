@@ -105,3 +105,11 @@ tmpFn3 <- function(x, n){
   }
   return(sum)
 }
+#8b.2
+tmpFn <- function(x){
+  z <- rep(0, length(x)-2)
+  for(i in 1:(length(x)-2)){
+    z[i] <- mean(x[i:(i+2)])
+  }
+  return(z)
+}
