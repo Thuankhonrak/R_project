@@ -72,8 +72,7 @@ Odderad <- function(x){
       if(x[i, j]%%2 != 0){
         x[i, j] = x[i, j]*2
       }
-    }
-    
+    }  
   }
   return(x)
 }
